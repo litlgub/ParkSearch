@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ParkFinder</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form>
+      <label for="text-input">
+        What State?
+      </label>
+      <input id="text-input" type="text" maxlength="2" required>
+      <br />
+      <label for="listings-input">
+        No. of listings?
+      </label>
+      <input id="listings-input" type="number" min="1" max="50" value="10">
+      <br />
+      <button type="submit" class="submit-number">Submit</button>
+    </form>
+    <section>
+          <div class="results">
+          </div>
+        </section>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
